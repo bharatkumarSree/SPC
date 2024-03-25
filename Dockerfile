@@ -8,4 +8,4 @@ LABEL author="Bharat Kumar"
 WORKDIR /tmp/
 COPY --from=Build SPC/target/*.jar /tmp/
 EXPOSE 8080
-CMD ["java","-jar","*.jar"]
+CMD ["java","-jar","spring-petclinic-3.2.0-SNAPSHOT.jar"]
